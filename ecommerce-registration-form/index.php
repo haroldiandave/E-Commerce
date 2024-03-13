@@ -18,8 +18,41 @@
             </div>
 
             <div class="input-box">
+                <input type="text" id="middle-name" name="middle-name" placeholder="Middle Name" required>
+            </div>
+
+            <div class="input-box">
                 <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
             </div>
+
+            <div class="input-box">
+                <label><?php echo 'Contact No.'; ?></label><br>
+                <input type="text" name="contact" placeholder="Phone No." required>
+            </div>
+
+
+            <div class="input-box">
+                <label><?php echo 'Address'; ?></label><br>
+                <input type="text" name="address" placeholder="" required>
+            </div>
+
+            <div class="input-box">
+                <label><?php echo 'Religion'; ?></label><br>
+                <input type="text" name="religion" placeholder="" required>
+            </div>
+
+            <div class="input-box">
+                <label><?php echo 'Birthday'; ?></label><br>
+                <input type="date" name="birth" placeholder="" required>
+            </div>
+
+            <div class="input-box">
+                <label><?php echo 'Age: '; ?></label><br>
+                <input type="text" name="age" placeholder="" required>
+            </div>
+
+
+
 
             <div class="input-box">
                 <label for="gender"><?php echo 'Gender'; ?></label><br>
