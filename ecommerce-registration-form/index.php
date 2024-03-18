@@ -87,10 +87,30 @@
                 </select>
             </div>
         
+            <div class="input-box">
+                <label><?php echo 'Username'; ?></label><br>
+                <input type="text" name="username" placeholder="" required>
+            </div>
+
+            <div class="input-box">
+                <label><?php echo 'Password'; ?></label><br>
+                <input type="text" name="password" placeholder="" required>
+            </div>
+
+            <div class="input-box">
+            <label><?php echo 'Confirm Password'; ?></label><br>
+            <input type="text" name="confirm_password" placeholder="" required>
+            </div>
+
+
             <label><input type="checkbox" name="declaration"><?php echo 'I hereby declare that the above information provided is true and correct'; ?></label>
 
+
             <button type="submit" class="btn"><?php echo 'Submit'; ?></button>
+
+
         </form>
+
      </div>
      
 </body>
