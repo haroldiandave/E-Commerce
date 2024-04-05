@@ -1,54 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.background-container {
-    width: 100%;
-    height: 100vh;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(homepage.JPG);
     background-size: cover;
     background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    background: transparent;
+    outline: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.form-box {
-    background-color: #76737380;
-    width: 450px;
-    padding: 25px 25px;
-    border-radius: 20px;   
-}
-
-.form-box h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1 {
+    text-align: center;
     color: #fff;
+    font-size: 30px;
 }
 
-.form-box h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form-box h2 a{
+p {
     color: #fff;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
-.form-box h2 a:hover{
-    color: #009688;
+strong {
+    color: #007bff;
 }
 
+.btn{
+     height: 35px;
+     width: 60%;
+     background-color: rgb(0, 0, 0, 0.5);
+     border: 0;
+     border-radius: 10px;
+     color: #fff;
+     font-size: 20px;
+     cursor: pointer;
+     margin-left: 79px;
+     margin-top: 10px;
+ }
+ 
+ .btn:hover {
+     opacity: 0.82;
+     background-color: #009688;
+ }
 
-
+ .updateButton {
+    background-color: #fff;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
