@@ -130,6 +130,45 @@ header{
     background: hsl(249, 32%, 17%);
 }
 
+.admin-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    margin-left: -1000px; 
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-btn,
+.update-btn,
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+.add-btn:hover,
+.update-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: hsl(249, 32%, 17%);
+}
+
+.quantity-input {
+    width: 40px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 
 
 

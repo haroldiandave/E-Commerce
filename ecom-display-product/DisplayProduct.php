@@ -23,63 +23,61 @@
             </section>
     
             <div class="shop-content">
-    
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Nike Dunk Low.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Nike Dunk Low</h2>' ?>
                     <?php echo '<span class="price">₱5,495</span>' ?>
-                    <i class='bx bx-shopping-bag add-cart\'></i>'
+                    <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
     
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Air Jordan Low SE.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Air Jordan Low SE</h2>' ?>
                     <?php echo '<span class="price">₱6,895</span>' ?>
-                    <i class='bx bx-shopping-bag add-cart\'></i>
+                    <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Air Jordan 1 Low.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Air Jordan 1 Low</h2>' ?>
                     <?php echo '<span class="price">₱6,195</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Nike AirForce 1 Essential.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Nike Air Force 1 Essential</h2>' ?>
                     <?php echo '<span class="price">₱4,125</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Nike Dunk High By You.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Nike Dunk High By You</h2>' ?>
                     <?php echo '<span class="price">₱1,242</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Air Jordan HighCut.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Air Jordan HighCut</h2>' ?>
                     <?php echo '<span class="price">₱5,615</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Air Jordan 1 Retro High OG.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Air Jordan 1 Retro High OG</h2>' ?>
                     <?php echo '<span class="price">₱8,123</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
 
-                <div class="product-box">
+                <div class="product-box" >
                     <?php echo '<img src="assets/Nike Blazzer Vintage.png" alt="" class="product-img">' ?>
                     <?php echo '<h2 class="product-title">Nike Blazzer Vintage</h2>' ?>
                     <?php echo '<span class="price">₱9,234</span>' ?>
                     <i class='bx bx-shopping-bag add-cart'></i>
                 </div>
             </div>
-            
         </body>
     </html>

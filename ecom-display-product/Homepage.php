@@ -21,11 +21,12 @@
 
             <?php echo "<div class='content'>"; ?>
                 
-                <?php echo "<h1>AIR JORDAN 1 MID SE GC</h1>"; ?>
-                <?php echo "<p>Dive into the electrifying world of Nike's virtual playground, where gravity is just a suggestion and your next step could be on the moon!</p>"; ?>
+                <?php echo "<h1>KickWise</h1>"; ?>
+                <?php echo "<p> Experience long-lasting quality that withstands the test of time, ensuring your KickWise shoes are always ready for your next adventure.</p>"; ?>
                  
                 <?php echo "<div>"; ?>
-                    <?php echo "<a href='Login.php'><button type='button'><span></span>LOG IN</button></a>"; ?>
+                    <?php echo "<a href='Signin-out.php'><button type='button'><span></span>USER</button></a>"; ?>
+                    <?php echo "<a href='Admin-Signin-out.php'><button type='button'><span></span>ADMIN</button></a>"; ?>
                 <?php echo "</div>"; ?>
 
             <?php echo "</div>"; ?>
